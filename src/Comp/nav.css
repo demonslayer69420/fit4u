@@ -1,0 +1,110 @@
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  top:0;
+}
+.brand-title {
+  margin: .5rem;
+  font-size: 35px;
+  cursor: pointer;
+  color: #FFBF00;
+  line-height: 50px;
+  font-weight: bold;
+  padding: 5px 0px 0px 20px;
+}
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar-links li {
+  list-style: none;
+  line-height: 50px;
+}
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 13px 17px;
+}
+button{
+  padding: 9px 23px;
+  background-color:rgb(255,191,0);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+}
+button:hover{
+  background-color:rgba(255,191,0,0.6);
+}
+.navbar-links li a:hover {
+  color: #FFBF00;
+  border-top: solid 2px green;
+}
+.bckgrd-image{
+  background-image: url('../../public/bck.jpeg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.card{
+  font-size:2rem;
+  padding-left: 25px;
+}
+.wel{
+  text-decoration: underline;
+}
+.container{
+  width: 600px;
+  background: rgb(222, 234, 174);
+  border-radius: 6px;
+  padding: 20px 40px;
+  margin:auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cont{
+  margin:auto;
+  text-align: center;
+}
+.container .content .right{
+  width: 75%;
+  margin-left: 75px;
+}
+.right .input-box{
+  height: 50px;
+  width: 500px;
+  margin: 12px 0px;
+}
+.right .input-box input,
+.right .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0px 15px;
+  resize: none;
+}
+.right .message-box{
+  min-height: 110px;
+}
+.right .input-box textarea{
+  padding-bottom: 6px;
+}

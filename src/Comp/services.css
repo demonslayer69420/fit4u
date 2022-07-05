@@ -1,0 +1,48 @@
+.services{ 
+    background-image: url('../../public/bck.jpeg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.serv{
+    width: 300px;
+    height: 200px;
+    background: rgb(234, 217, 133);
+    border-radius: 6px;
+    padding: 20px 40px;
+    margin: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.serv a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#bmi1{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+}
+#cal1{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+#fit1{
+    
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    
+}
+#gal1{
+    position: absolute;
+    left:20px;
+    top:20px;
+}
